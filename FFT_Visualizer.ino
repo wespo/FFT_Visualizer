@@ -4,7 +4,13 @@
 //supports Adafruit 2.8" LCD touch screen and Arduino Analog Shield.
 //Provides a selectable spectrum up to 31.5kHz, crude amplitude and
 //peak frequency measurements.
-
+/*
+Disclaimer:
+This code was developed by William Esposito, Ph.D. Candidate in Electrical Engineering, Stanford University, 
+in the Kovacs/Giovangrandi Laboratory in collaboration with Texas Instruments, Incorporated. All code herein is free and
+open source, but is provided as-is with no warranties implied or provided. Use of this code and the associated 
+documentation is at the user’s own risk.
+*/
 //required libraries for LCD display
 #include "SPI.h"
 #include "Adafruit_GFX.h"
